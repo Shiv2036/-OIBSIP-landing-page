@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Our Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      .animate-box {
+        animation: animate-box 1s;
+      }
+      @keyframes animate-box {
+        0% {
+          transform: translateY(100%);
+        }
+        100% {
+          transform: translateY(0);
+        }
+      }
+    </style>
+  </head>
+  <body class="h-screen w-screen flex justify-center items-center bg-gradient-to-r from-orange-500 to-yellow-500">
+    <div class="w-full h-full p-6 bg-white shadow-md rounded">
+      <header class="flex justify-center mb-4">
+        <img src="./xyz.jpeg" alt="Company Logo" class="h-40 w-80">
+      </header>
+      <main class="text-center">
+        <h1 class="text-5xl font-bold mb-4 text-purple-600">Welcome to Our Website</h1>
+        <p class="text-2xl text-gray-600 mb-8">We are a team of experts dedicated to providing the best services to our clients. Our mission is to deliver high-quality solutions that meet the needs of our customers.</p>
+        <button class="bg-pink-500 hover:bg-pink-700 text-white font-bold py-4 px-8 rounded">Get Started</button>
+      </main>
+      <div class="flex flex-col justify-center items-center mt-10">
+        <div class="w-full p-6 bg-blue-100 rounded animate-box mb-4">
+          <i class="fas fa-lock fa-3x text-blue-600 mb-4"></i>
+          <h2 class="text-2xl font-bold mb-2 text-blue-600">Secure</h2>
+          <p class="text-xl text-gray-600">We take the security of our clients' data very seriously. Our systems are designed to ensure that all information is protected and secure.</p>
+        </div>
+        <div class="w-full p-6 bg-green-100 rounded animate-box mb-4" style="animation-delay: 1s;">
+          <i class="fas fa-rocket fa-3x text-green-600 mb-4"></i>
+          <h2 class="text-2xl font-bold mb-2 text-green-600">Fast</h2>
+          <p class="text-xl text-gray-600">We understand the importance of speed in today's fast-paced world. Our services are designed to be quick and efficient, so you can get back to what matters most.</p>
+        </div>
+        <div class="w-full p-6 bg-yellow-100 rounded animate-box mb-4" style="animation-delay: 2s;">
+          <i class="fas fa-smile fa-3x text-yellow-600 mb-4"></i>
+          <h2 class="text-2xl font-bold mb-2 text-yellow-600">Friendly</h2>
+          <p class="text-xl text-gray-600">Our team is dedicated to providing the best customer service possible. We are always happy to help and support our clients in any way we can.</p>
+        </div>
+        <div class="w-full p-6 bg-blue-100 rounded animate-box mb-4" style="animation-delay: 3s;">
+          <i class="fas fa-globe fa-3x text-blue-600 mb-4"></i>
+          <h2 class="text-2xl font-bold mb-2 text-blue-600">Global Reach</h2>
+          <p class="text-xl text-gray-600">We have a global presence, with offices and partners in multiple countries around the world. This allows us to provide our services to clients from all over the globe.</p>
+        </div>
+      </div>
+      <div class="flex flex-col justify-center items-center mt-10">
+        <h2 class="text-3xl font-bold mb-4 text-purple-600">Contact Us</h2>
+        <div class="w-full p-6 bg-white rounded">
+          <h3 class="text-2xl font-bold mb-2">Company Information</h3>
+          <p class="text-xl text-gray-600">Company Name:    XYZ Groups</p>
+          <p class="text-xl text-gray-600">Email:           xyz@gmail.com</p>
+          <p class="text-xl text-gray-600">Contact number:  91********</p>
